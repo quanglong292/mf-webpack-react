@@ -6,12 +6,9 @@ on:
       - main
     paths:
       - 'container/**'
-  pull_request:
-    branches:
-      - main
 
 defaults:
-  runs:
+  run:
     working-directory: container
 
 jobs:
